@@ -1,0 +1,25 @@
+{
+  "name": "TwitchChatLogger",
+  "version": "1.0.0",
+  "description": "TwitchChatLogger",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HazardDev/TwitchChatLogger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HazardDev/TwitchChatLogger/issues"
+  },
+  "homepage": "https://github.com/HazardDev/TwitchChatLogger#readme",
+  "dependencies": {
+    "irc": "^0.5.2",
+    "redis": "^2.7.1",
+    "string-hash": "^1.1.3"
+  }
+}
