@@ -1,11 +1,11 @@
 var parsed_json = require("./pretty_dump.json");
 
-// var large_keys = [];
+var large_keys = [];
 
-var num = 0;
+// var num = 0;
 
 for (var key in parsed_json) {
-	if (parsed_json[key].value.num > 200) {
+	if (parsed_json[key].value.num > 1) {
 		console.log(parsed_json[key].value.num + ": " + parsed_json[key].value.text);
 		large_keys.push(parsed_json[key])
 	}
